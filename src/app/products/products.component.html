@@ -1,0 +1,14 @@
+<div class="cc">
+  <div class="card" *ngFor="let item of watches">
+    <img src="{{item.imgSrc}}" style="width: 50%;">
+    <div class="card-body">
+        <h4 class="card-title">{{item.name}}</h4>
+        <p class="card-text">
+        <b>type: </b>{{item.type}}<br>
+        <b>price: </b>{{item.price}}
+        <br>
+        </p>
+      <a (click)="add(item)" class="btn btn-primary">add to cart</a>
+    </div>
+  </div>
+</div>

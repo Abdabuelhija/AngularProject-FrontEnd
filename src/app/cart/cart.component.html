@@ -1,0 +1,26 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="buttons">
+<button type="button" class="btn btn-primary btn-lg btn-block" style="background-color: green;border: none;">Cart</button>
+<button type="button" class="btn btn-primary btn-lg btn-block"style="background-color: green;border: none;">Total Cart Price : <i class="fa fa-ils" aria-hidden="true"></i>{{totalprice}}</button>
+<button (click)="pay()" type="button" class="btn btn-primary btn-lg btn-block">Pay the Cart</button>
+<button (click)="clearCart()" type="button" class="btn btn-primary btn-lg btn-block">clear the card</button>
+</div>
+
+<div class="cc">
+    <div class="card"*ngFor="let item of products">
+        <img src="{{item.watch.imgSrc}}" style="width: 50%;">
+        <div class="card-body">
+            <h4 class="card-title">{{item.watch.name}}</h4>
+            <p class="card-text">
+            <b>type: </b>{{item.watch.type}}<br>
+            <b>price: </b>{{item.watch.price}}<br>
+            <b>Quantity: </b>{{item.count}}
+            <br>
+            </p>
+        </div>
+        <button (click)="removeFromCart(item.watch)" type="button" class="btn btn-primary btn-lg btn-block">Remove </button>
+
+    </div>
+</div>

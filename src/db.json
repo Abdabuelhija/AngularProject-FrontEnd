@@ -1,0 +1,250 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "abd abuelhija",
+      "birthdate": "28/12/2000",
+      "userimg": "https://i.pinimg.com/474x/65/25/a0/6525a08f1df98a2e3a545fe2ace4be47.jpg",
+      "gender": "male",
+      "mail": "a.abd.ab@hotmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 1,
+      "name": "moran",
+      "birthdate": "1980-10-31",
+      "userimg": "https://i.pinimg.com/474x/65/25/a0/6525a08f1df98a2e3a545fe2ace4be47.jpg",
+      "gender": "female",
+      "mail": "mor@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "carts": [
+    {
+      "products": [
+        {
+          "id": 1,
+          "watch": {
+            "type": "Rolex",
+            "name": "Watch 2",
+            "price": 30000,
+            "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex2.jpg"
+          },
+          "count": 1
+        }
+      ],
+      "isPaid": true,
+      "totalPrice": 30000,
+      "id": 1,
+      "user": {
+        "id": 0,
+        "name": "abd abuelhija",
+        "birthdate": "28/12/2000",
+        "userimg": "https://i.pinimg.com/474x/65/25/a0/6525a08f1df98a2e3a545fe2ace4be47.jpg",
+        "gender": "male",
+        "mail": "a.abd.ab@hotmail.com",
+        "password": "1234"
+      }
+    }
+  ],
+  "popuolarwatches": [
+    {
+      "type": "Rolex",
+      "name": "Watch 1",
+      "price": 100011,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex1.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 2",
+      "price": 30000,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex2.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 3",
+      "price": 2000,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex3.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 4",
+      "price": 35000,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex4.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 5",
+      "price": 43000,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex5.jpg"
+    }
+  ],
+  "RolexWatches": [
+    {
+      "type": "Rolex",
+      "name": "Watch 1",
+      "price": 3200,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex1.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 2",
+      "price": 3050,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex2.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 3",
+      "price": 1000,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex3.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 4",
+      "price": 1000,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex4.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 5",
+      "price": 43000,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex5.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 6",
+      "price": 65800,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex6.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 7",
+      "price": 41234,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex7.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 8",
+      "price": 3000,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex8.jpg"
+    },
+    {
+      "type": "Rolex",
+      "name": "Watch 9",
+      "price": 1234580,
+      "imgSrc": "assets/WatchesImg/RolexWatchesImgs/Rolex9.jpg"
+    }
+  ],
+  "ArmaniWatches": [
+    {
+      "type": "Armani",
+      "name": "Watch 1",
+      "price": 3200,
+      "imgSrc": "assets/WatchesImg/ArmaniWatchesImgs/Armani1.jpg"
+    },
+    {
+      "type": "Armani",
+      "name": "Watch 2",
+      "price": 30000,
+      "imgSrc": "assets/WatchesImg/ArmaniWatchesImgs/Armani2.jpg"
+    },
+    {
+      "type": "Armani",
+      "name": "Watch 3",
+      "price": 20000,
+      "imgSrc": "assets/WatchesImg/ArmaniWatchesImgs/Armani3.jpg"
+    },
+    {
+      "type": "Armani",
+      "name": "Watch 4",
+      "price": 35000,
+      "imgSrc": "assets/WatchesImg/ArmaniWatchesImgs/Armani4.jpg"
+    },
+    {
+      "type": "Armani",
+      "name": "Watch 5",
+      "price": 43000,
+      "imgSrc": "assets/WatchesImg/ArmaniWatchesImgs/Armani5.jpg"
+    },
+    {
+      "type": "Armani",
+      "name": "Watch 6",
+      "price": 35000,
+      "imgSrc": "assets/WatchesImg/ArmaniWatchesImgs/Armani6.jpg"
+    },
+    {
+      "type": "Armani",
+      "name": "Watch 7",
+      "price": 20553,
+      "imgSrc": "assets/WatchesImg/ArmaniWatchesImgs/Armani7.jpg"
+    },
+    {
+      "type": "Armani",
+      "name": "Watch 8",
+      "price": 105000,
+      "imgSrc": "assets/WatchesImg/ArmaniWatchesImgs/Armani8.jpg"
+    },
+    {
+      "type": "Armani",
+      "name": "Watch 9",
+      "price": 99999,
+      "imgSrc": "assets/WatchesImg/ArmaniWatchesImgs/Armani9.jpg"
+    }
+  ],
+  "Tissotwatches": [
+    {
+      "type": "Tissot",
+      "name": "Watch 1",
+      "price": 100011,
+      "imgSrc": "assets/WatchesImg/TissotWatchesImgs/Tissot1.jpg"
+    },
+    {
+      "type": "Tissot",
+      "name": "Watch 2",
+      "price": 30000,
+      "imgSrc": "assets/WatchesImg/TissotWatchesImgs/Tissot2.jpg"
+    },
+    {
+      "type": "Tissot",
+      "name": "Watch 3",
+      "price": 20000,
+      "imgSrc": "assets/WatchesImg/TissotWatchesImgs/Tissot3.jpg"
+    },
+    {
+      "type": "Tissot",
+      "name": "Watch 4",
+      "price": 35000,
+      "imgSrc": "assets/WatchesImg/TissotWatchesImgs/Tissot4.jpg"
+    },
+    {
+      "type": "Tissot",
+      "name": "Watch 5",
+      "price": 43000,
+      "imgSrc": "assets/WatchesImg/TissotWatchesImgs/Tissot5.jpg"
+    },
+    {
+      "type": "Tissot",
+      "name": "Watch 6",
+      "price": 35000,
+      "imgSrc": "assets/WatchesImg/TissotWatchesImgs/Tissot6.jpg"
+    },
+    {
+      "type": "Tissot",
+      "name": "Watch 7",
+      "price": 412342,
+      "imgSrc": "assets/WatchesImg/TissotWatchesImgs/Tissot7.jpg"
+    },
+    {
+      "type": "Tissot",
+      "name": "Watch 8",
+      "price": 30003,
+      "imgSrc": "assets/WatchesImg/TissotWatchesImgs/Tissot8.jpg"
+    },
+    {
+      "type": "Tissot",
+      "name": "Watch 9",
+      "price": 12345801,
+      "imgSrc": "assets/WatchesImg/TissotWatchesImgs/Tissot9.jpg"
+    }
+  ]
+}

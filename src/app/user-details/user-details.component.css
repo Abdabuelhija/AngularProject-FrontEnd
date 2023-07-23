@@ -1,0 +1,8 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+.card {
+	color:#fff;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #0f0a10, #8e309f); 
+    border: none;
+    width: 70%;   
+}

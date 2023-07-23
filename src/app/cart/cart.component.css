@@ -1,0 +1,17 @@
+.cc{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.SocialMedia {
+    text-align: center;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto  ;
+    background-color:  #B18F6A;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+button.btn.btn-primary.btn-lg.btn-block{
+margin-top: 0px;
+}

@@ -1,0 +1,29 @@
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <button type="button" class="btn btn-primary btn-lg btn-block">popular Watches :</button>
+  <div class="cc">
+    <div class="card"*ngFor="let item of Watches">
+      <img src="{{item.imgSrc}}" style="width: 50%;">
+      <div class="card-body">
+        <h4 class="card-title">{{item.name}}</h4>
+        <p class="card-text">
+        <b>type: </b>{{item.type}}<br>
+        <b>price: </b>{{item.price}}
+        <br>
+        </p>
+        <a (click)="add(item)" class="btn btn-primary">add to cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="SocialMedia">
+    <h3>Follow us on social media:</h3>
+    <h2><a href="#"class="fa fa-facebook" ></a>&nbsp;<a href="#" class="fa fa-twitter"></a></h2>
+  </div>
+  
+  
+  
+  
+  
+  
